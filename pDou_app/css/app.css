@@ -1,0 +1,221 @@
+.appExpRule {
+
+    margin: 0 auto;
+    width: 91%
+}
+
+.appExpRule h2, .appExpRule p {
+    width: 100%;
+    margin-top: .5rem;
+}
+
+.appExpRule img {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid #eee;
+}
+
+.appExpRule h2 {
+    margin-top: 1rem;
+    font-size: 0.75rem;
+    line-height: 1.57rem;
+    color: #F4B942;
+}
+
+p {
+    font-size: .7rem;
+    line-height: 1.13rem;
+    color: #666666;
+}
+
+.appExpRuleBottom {
+    margin-bottom: 1rem;
+}
+
+img {
+
+    display: block;
+}
+
+.span79 {
+    margin: 0 auto;
+    width: 79%;
+}
+
+.app_register_input {
+
+    background: #ffffff;
+
+}
+
+.app_register_out {
+    height: 2rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.outRegister input {
+    width: 100%;
+}
+
+.app_register_input input {
+
+    outline: none !important;
+    border: none !important;
+}
+
+.app_register_input input:focus {
+    outline: none !important;
+    border: none !important;
+}
+
+.app_register_oImgTop {
+    overflow: hidden;
+}
+
+.app_register_oImgTop div {
+    float: left;
+
+}
+
+.app_register_oImgTop .app_register_oImgTop_A {
+    width: 66%;
+}
+
+.app_register_oImgTop .app_register_oImgTop_B {
+    float: left;
+    margin-left: .3rem;
+    width: 29%;
+    height: 100%;
+}
+
+.app_register_oImgTop .app_register_oImgTop_c {
+    width: 64%;
+}
+
+.app_register_oImgTop .app_register_oImgTop_d {
+    width: 32%;
+    float: left;
+    font-size: .7rem;
+    height: 100%;
+    margin-left: .5rem;
+    line-height: 2rem;
+    background: #ff8c40;
+    text-align: center;
+    border-radius: 0.3rem;
+}
+
+.app_register_oImgTop .app_register_oImgTop_d div {
+    width: 100%;
+    color: #ffffff;
+}
+
+.app_register_oImgFoot {
+    margin: 0 auto;
+    text-align: center;
+    background: #fed931;
+    width: 100%;
+    height: 2rem;
+    line-height: 2rem;
+    border-radius: 0.3rem;
+}
+
+@media (max-width: 500px) {
+    .noMBottom {
+        margin-bottom: 0;
+    }
+}
+
+.app_register_bottom {
+    padding-top: 2rem;
+    width: 100%;
+    height: 15rem;
+    background: #fea531;
+}
+
+.app_register_bottom .app_register_foot {
+    margin:0 auto;
+    width: 92%;
+    height: 10rem;
+    background: url('../img/app_regsiter_flow.png') no-repeat;
+    background-size: 100%;
+}
+
+.app_register_footInner {
+    position: relative;
+    top: .5rem;
+}
+
+.app_register_footInner div {
+    margin: 0 auto;
+    width: 11.9rem;
+    height: 1.8rem;
+    line-height: 1.8rem;
+    border-bottom: 1px dashed #CCCCCC;
+    color: #fff;
+    text-align: center;
+    font-size: .95rem;
+}
+
+.app_register_footInner div:last-child {
+    border: none;
+}
+
+.app_register_gold_sin{
+    height: 2.8rem;;
+    background:url("../img/app_register_gold_00.png") repeat-x;
+}
+.app_register_footer div{
+    height: 2rem;
+    line-height: 2rem;
+    background: #e59328;text-align: center;
+    color: white;
+}
+
+.app_two_img{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    text-align: center;
+}
+.app_two_img .app_two_center{
+    position:relative;
+    top:50%;
+    margin:0 auto;
+    margin-top: -4.9rem;
+    height:9.8rem;
+    width:79%;
+    background: #ffffff;
+    border-radius: .5rem;
+}
+
+.app_two_footer{
+    /*width:89%;*/
+
+}
+.app_two_footer .app_two_footer_top div:nth-child(1){
+    width: 89%;padding: .5rem 0 0 0; font-size: .7rem;margin: 0 auto;
+}
+.app_two_footer .app_two_footer_top div:nth-child(2){
+    color: #f1766c;margin: .3rem 0 .5rem 0;
+}
+.app_two_footer .app_two_footer_one{
+    height: 2rem;line-height: 2rem;border-bottom: 1px solid #fc5e52;
+}
+.app_two_footer .app_two_footer_two{
+    background: #fea531; width: 89%;height: 1.7rem;margin: 0 auto;line-height: 1.7rem;color: white;border-radius: .3rem;
+}
+
+.app_two_footer .app_two_footer_three{
+    margin-top: .2rem;font-size: .8rem; line-height: 1rem;
+}
+.app_two_center .app_two_center_one{
+    position:absolute;top: -4rem;right: 1rem
+}
+.app_two_center .app_two_center_two{
+    margin: 0 auto;width: 1px;height: 2rem;background: #fff;
+}
+

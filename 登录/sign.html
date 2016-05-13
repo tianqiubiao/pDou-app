@@ -1,0 +1,334 @@
+<!DOCTYPE>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>圆形加载</title>
+    <link rel="stylesheet" href="../../workspace/pdou-web/static-files/css/01.css">
+    <style>
+        .center .lc .lcF .lcFDC {
+            position: relative;
+            top: 20px;
+            margin: 0 auto;
+            padding: 5px;
+            width: 200px;
+            height: 200px;
+            border: 1px solid #ccc;
+            border-radius: 50%;
+            overflow: hidden;
+            background: #cdf0f5;
+        }
+
+        .center .lc .lcF .lcFDC .lcFDCO {
+            position: absolute;
+            top: 5px;
+            height: 95%;
+            width: 95%;
+            background: #6ed3d6;
+            border-radius: 50%;
+            left: 5px;
+        }
+
+        .center .lc .lcF .lcFDC .lcFDOD {
+            position: absolute;
+            top: -2px;
+            left: 0;
+            height: 47%;
+            width: 100%;
+            /* background: #cdf0f5; */
+            opacity: 0.3;
+            background: white;
+        }
+
+        .center .lc .lcF .lcFDCI {
+            position: absolute;
+            top: -2px;
+            left: 0px;
+            width: 101%;
+            height: 100%;
+            line-height: 51px;
+            text-align: center;
+        }
+
+        .center .lc .lcF .lcFDCI p {
+            position: absolute;
+            width: 100%;
+            text-align: center
+        }
+
+        .center .lc .lcF .lcFDCI p:nth-child(1) {
+            font-size: 45px;
+            top: 33%;
+        }
+
+        .center .lc .lcF .lcFDCI p:nth-child(2) {
+            line-height: 25px;
+            font-size: 17px;
+            width: 100%;
+            top: 59%;
+        }
+
+        .center .lc .lcF .lcFD .lcFDn {
+            height: 40px;
+            overflow: hidden;
+            width: 100%;
+            position: absolute;
+            bottom: 40px;
+            margin: 0 auto;
+        }
+
+        .center .zr .lcf .lcFDC {
+            position: relative;
+            margin-top: 25px;
+            width: 100%;
+            height: 185px;
+        }
+
+        .center .zr .lcF .lcFDC .lcFDCO {
+            position: relative;
+            top: 55px;
+            margin: 0 auto;
+            width: 225px;
+            height: 62px;
+            border: 1px solid #cdf0f5;
+        }
+
+        .center .zr .lcF .lcFD .lcFDn {
+            overflow: hidden;
+            height: 65px;
+            margin: 0 auto;
+            position: absolute;
+            left: 15px;
+        }
+
+        .center .zr .lcF .lcFD .lcFDn .lcFDnA, .center .zr .lcF .lcFD .lcFDn .lcFDnB {
+            float: left;
+            text-align: left;
+            font-size: 16px;
+        }
+
+        .center .zr .lcF .lcFD .lcFDn .lcFDnA {
+            width: 130px;
+        }
+
+        .center .zr .lcF .lcFD .lcFDn .lcFDnB {
+            width: 100px;;
+        }
+
+        .center .zr .lcF .lcFD .lcFDn .lcFDnA div:nth-child(1) {
+            color: #F77F96;
+            font-size: 25px;
+        }
+
+        .center .zr .lcF .lcFD .lcFDn .lcFDnB div:nth-child(1) {
+            color: #6ED3D6;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <input type="tel" placeholder="手机号" id="userId">
+    <input type="text" placeholder="密码" id="password">
+</div>
+
+<div class="center">
+    <!--理财-->
+    <div class="lc">
+        <h2 class="lcT">定期理财 <span>查看更多&gt;</span></h2>
+
+        <div class="lcF">
+            <div class="lcFD marginNo">
+                <div class="lcFDT">
+                    <p>中铁物流专项</p>
+                    <p>安息月付</p>
+                </div>
+                <div class="lcFDC">
+
+                    <!--外面的圆-->
+                    <div class="lcFDCO"></div>
+                    <div class="lcFDOD"></div>
+
+                    <!--里面的圆-->
+                    <div class="lcFDCI">
+                        <div>
+                            <p>50%</p>
+                            <p>1400000.00/160万</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="lcFDn">
+                    <span>10%</span><span>+2%</span><span>2个月</span>
+                </div>
+                <div class="lcFDF">
+                    <a href="">立刻购买</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--转让-->
+    <div class="zr">
+        <h2 class="lcT">他人转让 <span>查看更多&gt;</span></h2>
+        <div class="lcF">
+            <div class="lcFD marginNo">
+                <div class="lcFDT">
+                    <p>定宝</p>
+                    <p>安息月付 到期还本</p>
+                </div>
+                <div class="lcFDC">
+
+                    <!--外面的条-->
+                    <div class="lcFDCO">
+
+                        <div class="lcFDOD">
+                            <span></span>
+                        </div>
+
+                        <!--里面的条-->
+                        <div class="lcFDCI">
+                            <div>
+                                <p>50/180份</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="lcFDn">
+                    <div class="lcFDnA">
+                        <div>10.1%</div>
+                        <div>年化收益率</div>
+                    </div>
+                    <div class="lcFDnB">
+                        <div>180天</div>
+                        <div>剩余天数</div>
+                    </div>
+                </div>
+                <div class="lcFDF">
+                    <a href="">立刻购买</a>
+                </div>
+            </div>
+
+            <div class="lcFD ">
+                <div class="lcFDT">
+                    <p>定宝</p>
+                    <p>安息月付 到期还本</p>
+                </div>
+                <div class="lcFDC">
+
+                    <!--外面的条-->
+                    <div class="lcFDCO">
+
+                        <div class="lcFDOD">
+                            <span></span>
+                        </div>
+
+                        <!--里面的条-->
+                        <div class="lcFDCI">
+                            <div>
+                                <p>50/180份</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="lcFDn">
+                    <div class="lcFDnA">
+                        <div>10.1%</div>
+                        <div>年化收益率</div>
+                    </div>
+                    <div class="lcFDnB">
+                        <div>180天</div>
+                        <div>剩余天数</div>
+                    </div>
+                </div>
+                <div class="lcFDF">
+                    <a href="">立刻购买</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="center">
+    <!--理财-->
+    <div class="lc">
+        <h2 class="lcT">定期理财 <span>查看更多&gt;</span></h2>
+
+        <div class="lcF">
+            <div class="lcFD marginNo">
+                <div class="lcFDT">
+                    <p>中铁物流专项</p>
+                    <p>安息月付</p>
+                </div>
+                <div class="lcFDC">
+
+                    <!--外面的圆-->
+                    <div class="lcFDCO"></div>
+                    <div class="lcFDOD"></div>
+
+                    <!--里面的圆-->
+                    <div class="lcFDCI">
+                        <div>
+                            <p>50%</p>
+                            <p>1400000.00/160万</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="lcFDn">
+                    <span>10%</span><span>+2%</span><span>2个月</span>
+                </div>
+                <div class="lcFDF">
+                    <a href="">立刻购买</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--转让-->
+    <div class="zr">
+        <h2 class="lcT">他人转让 <span>查看更多&gt;</span></h2>
+
+        <div class="lcF">
+            <div class="lcFD marginNo">
+                <div class="lcFDT">
+                    <p>定宝</p>
+                    <p>安息月付 到期还本</p>
+                </div>
+                <div class="lcFDC">
+                    <div class="lcFDCO"></div>
+                    <div class="lcFDOD"></div>
+                    <div class="lcFDCI">
+                        <div>
+                            <p>50/180份</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="lcFDn">
+                <span>10%</span><span>+2%</span><span>2个月</span>
+            </div>
+            <div class="lcFDF">
+                <a href="">立刻购买</a>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+
+
+<script src="../pDou/js/jquery.min.js"></script>
+<script>
+
+
+</script>
+
+</body>
+</html>
