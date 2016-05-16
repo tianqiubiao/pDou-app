@@ -1,4 +1,4 @@
-html,
+﻿html,
 body,
 div,
 span,
@@ -302,6 +302,26 @@ p {
 .appExpRuleBottom {
     margin-bottom: 1rem;
 }
+.safety{
+    margin: 0 auto;
+    width:91%
+}
+.safety img{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid #eee;
+}
+.safety h1,.safety p{
+    width: 100%;
+    margin-top: .5rem;
+}
+.safety h1{
+    margin-top:1rem;
+    font-size:0.9rem ;
+    line-height: 1.57rem;
+    color: #f77f96;
+}
 
 img {
     margin: auto;
@@ -404,7 +424,7 @@ img {
     margin: 0 auto;
     width: 92%;
     height: 10rem;
-    background: url('../img/app_regsiter_flow.png') no-repeat;
+    background: url('../images/tuiguang/app_regsiter_flow.png') no-repeat;
     background-size: 100%;
 }
 
@@ -430,7 +450,7 @@ img {
 
 .app_register_gold_sin {
     height: 2.8rem;;
-    background: url("../img/app_register_gold_00.png") repeat-x;
+    background: url("../images/tuiguang/app_register_gold_00.png") repeat-x;
 }
 
 .app_register_footer div {
@@ -542,7 +562,7 @@ img {
     margin-left: -2.6rem;
     width: 5.2rem;;
     height: 2.5rem;
-    background: url("../img/app_pDOu_logo.png") no-repeat;
+    background: url("../images/tuiguang/app_pDOu_logo.png") no-repeat;
     background-size: 100%;
     background-position-y: .5rem;
 }
@@ -578,7 +598,7 @@ img {
     position: relative;
     width: 100%;
     height: 19.6rem;;
-    background: url("../img/out_youshi.png") no-repeat left top/100%;
+    background: url("../images/tuiguang/out_youshi.png") no-repeat left top/100%;
 }
 
 .out_sign_topB .out_sign_bottomA {
@@ -598,7 +618,7 @@ img {
     line-height: 3.31rem;
     width: 3.6rem;font-size: .8rem;
     text-align: center;;
-    background: url("../img/out_sign_shouyi.png") no-repeat left top /100%;
+    background: url("../images/tuiguang/out_sign_shouyi.png") no-repeat left top /100%;
 
 }
 
